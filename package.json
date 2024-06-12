@@ -9,12 +9,22 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@apollo/client": "^3.10.4",
+    "apollo-server-micro": "^3.13.0",
+    "faker": "^5.5.3",
+    "graphql": "^16.8.1",
+    "mysql2": "^3.10.0",
+    "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.3"
+    "sequelize": "^6.37.3"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.19",
     "eslint": "^8",
-    "eslint-config-next": "14.2.3"
+    "eslint-config-next": "14.2.3",
+    "nodemon": "^3.1.3",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.4"
   }
 }

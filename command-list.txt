@@ -1,0 +1,4 @@
+sequelize command
+    docker-compose exec app npx sequelize-cli migration:generate --name create-images-table
+    docker-compose exec app npx sequelize-cli db:migrate
+    docker-compose run app npx sequelize-cli db:seed:all --debug
